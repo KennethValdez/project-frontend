@@ -5,7 +5,7 @@ import Tabs from './tabmenu/tab';
 function App() {
   return (
     <div className="App">
-     <Tabs/>
+      <Tabs/>
     </div>
   );
 }

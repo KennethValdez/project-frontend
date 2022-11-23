@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.tab{
+  width: 65rem;
+  height: 62rem;
+  background: #e9e8e8;
+  margin: 8rem auto 0;
+  border-style: solid;
+  margin-left: 14.7rem;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+  padding-top: 1.5rem;
+
+}
+
+.tab spam{
+
+    color: black;
+    margin-left: 1.9rem;
+    margin-top: 0.8rem;
+}
+.baseTab{
+    border-left: 0.1px;
+    cursor: pointer;
+    border-radius: 1rem;
+    border-style: solid;
+    margin-left: 2.7rem;
+    
+    
+  }
+  
+  .baseTab:hover{
+    background-color:#2e2eff  !important;
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .activeTab{
+    background-color: #5ea4ff !important;
+    color: rgb(0, 0, 0) !important;
+    
+  }
+  
+  .activeTab .container{
+
+    border-style: solid;
+  }
+
+img{
+    border-style: solid;
+    margin: 0.3rem;
+}

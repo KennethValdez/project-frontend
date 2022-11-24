@@ -5,35 +5,42 @@ nav {
     width: 100%;
     background: black;
 }
+.logo{
+    height: 43px;
+    width: 46px;
+    border-radius: 45px;
+    display: block;
+    padding: 6px;
+    position: fixed;
+    z-index: 100;
+}
 
 .list {
     list-style-type: none;
+    margin: 1px;
     background: black;
     height: 100%;
     display: flex;
     justify-content: right;
     align-items: center;
-    position: relative;
 }
+
 .items {
     margin-right: 18px;
     font-size: 18px;
     text-transform: uppercase;
-    color: #f1f1f1;
+    color: white;
     cursor: pointer;
 }
 
 .btn{
     display: none;
     position: absolute;
-    right: 10px;
     top: 7px;
     padding: 5px;
-    color: #000;
+    color: white;
     font-size: 18px;
     right: 1rem;
-    bottom: 0.5rem;
-    border-radius: 45%;
 }
 
 

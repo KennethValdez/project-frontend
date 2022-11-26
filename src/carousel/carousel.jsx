@@ -18,16 +18,17 @@ const previusImage =()=>{
 }
 
     return (
-        <div className='styles={styles.carousel-container}'>
-            <button onClick={previusImage}>←</button>
-            {imagenes.map((imagen, index)=>{
-                return( 
-                    <div>
-                        {imagenActual === index &&(<img key={index} src={imagen} alt="imagen"/>)}
-                    </div>
-                );
+        <div className='container'>
+            <button className='buttonleft' onClick={previusImage}>{'<'}</button>
+            {imagenes.map((imagen,index)=>{
+                if(imagenActual===index){
+                    return(<div key={index} className='imgcontainer'>
+                    <img  src={imagen} alt="imagen" className='imgcarousel'/>
+                    </div>)
+                }
+                //return(<></>)
             })}
-            <button onClick={nextImage}>→</button>
+            <button className='buttonright' onClick={nextImage}>{'>'}</button>
         </div>
     )
 }

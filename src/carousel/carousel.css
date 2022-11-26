@@ -1,8 +1,87 @@
-.carousel-container{
+.container{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.imgcarousel{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgcontainer{
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .imgcarousel{
+    height: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .imgcarousel{
+        height: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+    .imgcarousel{
+        height: 900px;
+}
+}
+
+@media (min-width: 1200px) {
+    .imgcarousel{
+    height: 450px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .imgcarousel{
+    height: 500px;
+    }
+}
+
+.buttonleft{
+    color: transparent;
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 45px;
+    background: transparent;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 32px;
+}
+
+.buttonleft:hover{
+    background: rgba(255,255,255,.2);
+    color: black;
+}
+
+.buttonright{
+    color: transparent;
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    width: 45px;
+    background: transparent;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 32px;
+}
+
+.buttonright:hover{
+    background: rgba(255,255,255,.2);
+    color: black;
 }

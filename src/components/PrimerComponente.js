@@ -13,7 +13,7 @@ function PrimerComponente() {
 
 
 return (
-
+    <div className="palana">
     <div className='tab'>
         <div className='contenedor'>    
             <Nav>
@@ -174,21 +174,20 @@ return (
                <img src='https://i.ytimg.com/vi/zRlEDI01RFU/maxresdefault.jpg'
               width={320} height={280}
               />
-               <img src='https://as01.epimg.net/meristation/imagenes/2021/07/01/noticias/1625147811_552189_1625147851_noticia_normal.jpg'
+              <img src='https://as01.epimg.net/meristation/imagenes/2021/07/01/noticias/1625147811_552189_1625147851_noticia_normal.jpg'
               width={320} height={280}
               />
-               <img src='https://i.ytimg.com/vi/zRlEDI01RFU/maxresdefault.jpg'
+              <img src='https://i.ytimg.com/vi/zRlEDI01RFU/maxresdefault.jpg'
               width={320} height={280}
               />
-               <img src='https://as01.epimg.net/meristation/imagenes/2021/07/01/noticias/1625147811_552189_1625147851_noticia_normal.jpg'
+                <img src='https://as01.epimg.net/meristation/imagenes/2021/07/01/noticias/1625147811_552189_1625147851_noticia_normal.jpg'
               width={320} height={280}
               />
-           </div>
-           </TabPane>
-
-       </TabContent>
-       </div>
-
+            </div>
+            </TabPane>
+        </TabContent>
+          </div>
+    </div>
     </div>
   )
 }

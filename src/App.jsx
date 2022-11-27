@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Tabs from './tabmenu/tab';
+import TabCar from './components/tab-car';
 
 function App() {
   return (
     <div className="App">
-      <Tabs/>
+      {/* <Tabs/> */}
+      <TabCar/>
     </div>
   );
 }

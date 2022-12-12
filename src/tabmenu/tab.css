@@ -2,7 +2,7 @@
     background: #fff;
   }
   
-  .container {
+  .container-navbar {
     display: flex;
     flex-direction: column;
     position: relative;

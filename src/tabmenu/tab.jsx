@@ -9,7 +9,7 @@ function Tabs() {
   };
 
   return (
-    <div className="container">
+    <div className="container-navbar">
       <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
